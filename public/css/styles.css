@@ -1,6 +1,8 @@
 
 body {
   background-color: #E8ECEF;
+  width: 100%;
+  height: 100%;
 }
 
 .centered {
@@ -13,4 +15,28 @@ body {
   font-size: 2rem;
   color: #fff;
   background-color: #000;
+}
+
+@media only screen and (max-width: 600px) {
+  .container{
+    padding-top: 50%;
+    width: 100%;
+    height: 100%;
+    
+  }
+  .display-3{
+    font-size: 10rem;
+  }
+  .lead{
+    font-size: 3rem;
+  }
+  .btn{
+    width: 8rem;
+    height: 6rem;
+    font-size: 2rem;
+  }
+  .fas{
+    width: 3rem;
+    height: 3rem;
+  }
 }
