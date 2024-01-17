@@ -17,7 +17,7 @@ body {
   background-color: #000;
 }
 
-@media screen and (min-width : 800px) {
+@media screen and (max-width : 800px) {
   .container{
     padding-top: 50%;
     width: 100%;
@@ -31,12 +31,22 @@ body {
     font-size: 3rem;
   }
   .btn{
-    width: 8rem;
+    width: fit-content;
     height: 6rem;
     font-size: 2rem;
+    margin: 5px;
   }
   .fas{
     width: 3rem;
     height: 3rem;
   }
+  .card{
+    width: 80%;
+    height: fit-content;
+  }
+
+  h1{
+    font-size: 5rem;
+  }
+
 }
